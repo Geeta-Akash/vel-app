@@ -2,7 +2,8 @@ pipeline{
   agent any
     stages{
       stage('one'){
-        echo "welcome to velo...."
+        steps{
+          echo "welcome to velo...."
       }
     }
   }
